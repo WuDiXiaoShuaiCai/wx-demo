@@ -1,0 +1,8 @@
+<van-action-sheet
+  show="{{ show }}"
+  actions="{{ actions }}"
+  bind:close="onClose"
+  cancel-text="取消"
+  bind:cancel="onClose"
+  bind:getphonenumber="getPhoneNumber"
+/>
